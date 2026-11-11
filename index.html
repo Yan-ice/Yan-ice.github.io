@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jiaqin Yan (颜嘉钦) — Ph.D. student at Shanghai Jiao Tong University, working on systems security and kernel privilege separation."
+    />
+    <title>Jiaqin Yan · 颜嘉钦</title>
+    <link rel="icon" href="icon.jpg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Sora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="mark" href="#top">Jiaqin Yan</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Ph.D. Student · Shanghai Jiao Tong University</p>
+          <h1 class="name reveal">Jiaqin Yan</h1>
+          <p class="cname reveal">颜嘉钦</p>
+          <p class="lede reveal">
+            I work on systems security—kernel privilege separation, portable
+            isolation, and practical mechanisms that shrink the trusted
+            computing base of commodity operating systems.
+          </p>
+          <div class="cta-row reveal">
+            <a class="btn primary" href="mailto:yan2364728692@gmail.com">Email me</a>
+            <a class="btn ghost" href="cv.pdf">CV</a>
+          </div>
+        </div>
+        <figure class="hero-visual reveal">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="portrait">
+            <img
+              src="icon.jpg"
+              alt="Portrait of Jiaqin Yan"
+              width="640"
+              height="800"
+            />
+          </div>
+        </figure>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Publications in systems security and operating systems.</p>
+        </div>
+        <ul class="work-list">
+          <li class="work-item">
+            <a
+              href="https://www.usenix.org/conference/usenixsecurity25/presentation/yan-jiaqin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="work-meta">2025 · USENIX Security</span>
+              <span class="work-title"
+                >EKC: A Portable and Extensible Kernel Compartment for
+                De-Privileging Commodity OS</span
+              >
+              <span class="work-note"
+                >A portable, extensible kernel compartment that embeds into
+                commodity OSes for privilege separation—without higher-privileged
+                software or platform-specific hardware.</span
+              >
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>A short note on where I am and what I’m building toward.</p>
+        </div>
+        <div class="about-grid">
+          <p>
+            I’m a Ph.D. student at Shanghai Jiao Tong University. My research
+            focuses on systems security, especially kernel compartmentalization
+            and privilege separation for commodity operating systems.
+          </p>
+          <p>
+            I care about designs that are portable across ISAs and OSes, strong
+            enough to reason about, and concrete enough to ship—turning isolation
+            mechanisms into systems people can actually deploy.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Open to research chats and collaboration.</p>
+        </div>
+        <div class="contact-row">
+          <a href="mailto:yan2364728692@gmail.com">yan2364728692@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Jiaqin Yan · 颜嘉钦</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
